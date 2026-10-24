@@ -1,0 +1,27 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Users",
+    "collectionId": "54d97844-4e0b-4294-8481-7ff8385df06b",
+    "dateExported": "2026-10-18T13:50:00.000Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "80aca196-7a50-4efd-9371-a53b30547d71",
+            "colId": "54d97844-4e0b-4294-8481-7ff8385df06b",
+            "containerId": "",
+            "name": "Create User",
+            "url": "http://localhost:3000/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2026-10-18T13:50:00.000Z",
+            "modified": "2026-10-18T13:50:00.000Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstName\": \"Sara\",\n  \"lastName\": \"Mohamed\",\n  \"email\": \"sara@test.com\",\n  \"phone\": \"01098765432\",\n  \"gender\": \"female\"\n}",
+                "form": []
+            }
+        }
+    ]
+}

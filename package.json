@@ -1,0 +1,22 @@
+{
+  "name": "mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node --watch main.js",
+    "prod": "cross-env NODE_ENV=production node  main.js",
+    "seed": "cross-env NODE_ENV=development node src/db/seed_users.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.2",
+    "mongoose-lean-virtuals": "^2.1.0"
+  }
+}
